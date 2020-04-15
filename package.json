@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "nodexprmt.js",
   "scripts": {
+    "dev": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,10 @@
   "dependencies": {
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1"
+  },
+  "devDependencies":
+  {
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   }
 }
