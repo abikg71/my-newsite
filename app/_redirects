@@ -7,6 +7,7 @@
 # Refer to the documentation - https://www.netlify.com/docs/netlify-toml-reference/#getting-started
 [[redirects]]
 
-  from = "my-newsite/app/*"
+
+  from = "./app/*"
   to = "/index.html"
   status = 200
