@@ -2,7 +2,6 @@ $(document).ready(function() {
 
  var flickerAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 
-
  $('form').submit(function (evt) {
     var $submitButton = $('#submit');//
     var $searchField = $('#search');
