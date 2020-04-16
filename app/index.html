@@ -2,7 +2,11 @@
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/cssuglify.css">
+    <link rel="stylesheet" href="assets/styles/search.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="search.js"></script>
     <title>abikenore</title>
 </head>
 <body>
@@ -18,10 +22,6 @@
             </ul>
         </nav>
     </header>
-    <p class="firstClass">This is first line.</p>
-    <p class="secondClass">This is second line.</p>
-    <div class="">
-        <p>This is a paragraph test</p>
         <div class="wrapper">
             <section>
                 <h1>RSVP</h1>
@@ -38,6 +38,30 @@
         </div>
         <script type="text/javascript" src="app.js"></script>
     </div>
+<section>
+    <!-- Search --->
+    <div class="grid-container centered">
+        <div class="grid-100">
+          <div class="contained">
+            <div class="grid-100">
+              <div class="heading">
+                <h1>This is a Flickr Photo Search</h1>
+                <form>
+                  <label for="search">Type a search term</label>
+                  <input type="search" name="search" id="search">
+                  <input type="submit" value="Search" id="submit">
+                </form>
+
+              </div>
+            </div>
+
+            <ul id="photos">
+
+            </ul>
+          </div>
+        </div>
+    </div>
+</section>
     <br>
     <div class="slideshow-container">
         <div class="mySlides fade">
