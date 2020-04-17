@@ -54,6 +54,13 @@ img {
   border-radius: 10px;
 }
 
+/**********************************
+RSVP
+***************************************/
+.wrapper{
+  margin-left: 20px;
+  padding-left: 10px;
+}
 /****************
 Trsideying side by
 ****************/
@@ -139,7 +146,28 @@ h6 {
   margin-top: .175px;
 
 }
+/***********************
+ABOUT
+***********************/
+.wrapper{
+  margin-left: 20px;
+  padding-left: 20px;
+}
 
+.about-page, .about{
+  padding-left: 20px;
+  margin: inherit;
+}
+
+/***********************
+  CONTACT-main
+***********************/
+.contact{
+  padding-left: 50%x;
+  margin: inherit;
+  text-align:justify;
+
+}
 /***********************
 RSV
 ***********************/
@@ -215,7 +243,7 @@ PAGE: CONTACT
 .contact-info {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin-left: 20px;
   font-size: 0.9em;
 }
 
@@ -225,7 +253,7 @@ PAGE: CONTACT
   min-height: 20px;
   background-repeat:no-repeat;
   background-size: 20px 20px;
-  padding: 0 0 0 30px;
+  padding: 0 0 0 0 30px;
   margin: 0 0 10px;
 }
 
