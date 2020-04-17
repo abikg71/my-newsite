@@ -8,11 +8,7 @@ body{
   padding: 0px;
   margin: 0px;
 }
-/*
-nav{
-border:
-}
-*/
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -91,8 +87,7 @@ ul.skills {
   padding: 5px 10px;
   margin: 2px;
 }
-/* Diffeent color for each programming
-languages */
+
 .skills li:nth-child(1) {
   background: #0399ff;
 }
@@ -168,6 +163,7 @@ ABOUT
   text-align:justify;
 
 }
+
 /***********************
 RSV
 ***********************/
@@ -189,7 +185,6 @@ form button {
   background: #7bcbc4;
   border-radius: .2em;
 }
-
 
 .secondary-content {
 	padding-top: 80px;
@@ -269,7 +264,6 @@ PAGE: CONTACT
   background-image: url('../images/twitter.png');
 }
 
-
 /**********************************
 FOOTER
 ***********************************/
@@ -287,13 +281,6 @@ footer {
   height: 20px;
   margin: 0 5px;
 }
-
-
-/****************
-      RSVP
-
-*****************/
-
 
 /****************
 slideshow
