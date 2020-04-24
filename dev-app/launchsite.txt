@@ -1,0 +1,33 @@
+April14, 2020,
+host your website for free
+
+Netify vs Github page
+
+Signing up using a Github Account is more useful
+bc you can easly update the files and ...
+The file size is 8.2 MB as Apr17, 20
+
+=====
+
+app/assets/styles/cssuglify.css
+[build]
+  command = "npm run build"
+  publish = "public/"
+
+# Redirect rule defined in "_redirect" isn't working.
+# using netlify.toml instead.
+# Refer to the documentation - https://www.netlify.com/docs/netlify-toml-reference/#getting-started
+#[[redirects]]
+
+ from = "./app/*"
+ to = "/index.html"
+ status = 200
+
+youtube Video on Deploying the site
+https://www.youtube.com/watch?v=bjVUqvcCnxM
+
+Command line tools
+sudo nmp i -g netlify-cli
+
+
+inside the assets/app/scripts/App.js file add import ''

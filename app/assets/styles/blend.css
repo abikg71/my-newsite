@@ -1,0 +1,33 @@
+
+.blend
+{
+
+	font: 1em/1.4 'Helvetica Neue', sans-serif;
+	color: #eee;
+	background: url('../images/aby.jpg') no-repeat, linear-gradient(#6de590, #e67478);
+  background-blend-mode: multiply;
+	background-size: cover;
+  h1 {
+    font-size: 12em;
+    margin: 0;
+    line-height: 1;
+    letter-spacing: -2rem;
+    color: #6b845d;
+    }
+
+    span:nth-child(1) {
+    color: #801;
+    }
+    span:nth-child(2) {
+    color: #801b3a;
+    }
+
+    span:nth-child(3) {
+    color: #164d67;
+    }
+
+    h1 span {
+    mix-blend-mode: screen;
+    }
+  }
+}
